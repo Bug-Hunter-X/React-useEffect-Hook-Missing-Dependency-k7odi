@@ -1,0 +1,1 @@
+This repository demonstrates a common React bug involving the `useEffect` hook. The initial implementation incorrectly omits the `count` variable from the dependency array, leading to the log statement executing only once instead of whenever the `count` updates. The corrected version showcases how to properly include the `count` dependency to address this issue.
